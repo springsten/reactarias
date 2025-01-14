@@ -7,14 +7,44 @@
   height: calc(100vh - 70px);
   background: v.$primary-dark;
   padding: 0 20px 0 20px;
-  color: white;
+  color: v.$primary-light;
+
+  .hero-content {
+    max-width: 900px;
+  }
 
   h1 {
     font-size: 5rem;
+    line-height: 5rem;
   }
 
   p {
     font-size: 1.4rem;
     font-weight: 400;
+  }
+
+  .hero-button {
+    margin-top: 20px;
+    background-color: transparent;
+    color: v.$primary-light;
+    border: 1px solid v.$primary-light;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: v.$primary-light;
+      color: v.$primary-dark;
+    }
+  }
+  .count {
+    font-size: 1.5rem;
+    padding: 20px;
   }
 }

@@ -25,7 +25,7 @@ const Navbar = () => {
               <a href="#">Hem</a>
             </li>
             <li>
-              <a href="#">Om oss</a>
+              <a href="#">Om</a>
             </li>
             <li>
               <a href="#">Kontakt</a>
