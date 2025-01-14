@@ -4,17 +4,22 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: v.$primary-light;
-  height: 100px;
+  background-color: transparent;
+  height: 75px;
   padding: 0 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   position: relative;
+
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
 
   .header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1024px;
+    max-width: 1200px;
     width: 100%;
   }
 
