@@ -4,14 +4,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
+  background-color: v.$primary-dark;
   height: 75px;
   padding: 0 2rem;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   position: relative;
+  color: v.$primary-light;
 
   .logo {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 600;
   }
 

@@ -22,7 +22,7 @@
     .line {
       width: 2rem;
       height: 0.25rem;
-      background: #333;
+      background: v.$primary-light;
       border-radius: 10px;
       transition: all 0.2s linear;
       position: relative;
@@ -47,13 +47,14 @@
   .nav-links {
     @media (max-width: 767px) {
       position: fixed;
-      top: 100px;
+      top: 75px;
       left: 0;
       width: 100%;
       height: calc(100vh - 75px);
-      background: v.$primary-light;
+      background: v.$primary-dark;
       transform: translateX(-100%);
-      transition: transform 0.2s ease-in-out;
+      transition: transform 0.3s ease-in-out;
+      color: v.$primary-light;
 
       &.open {
         transform: translateX(0);
@@ -80,7 +81,7 @@
       a {
         display: block;
         text-decoration: none;
-        color: #333;
+        color: v.$primary-light;
         font-weight: 500;
         font-size: 1.1rem;
         padding: 0.5rem;
@@ -103,14 +104,8 @@
 
           &:hover,
           &:active {
-            &::after {
-              width: 100%;
-            }
+            color: #fff;
           }
-        }
-        &:hover,
-        &::active {
-          color: v.$brat-green;
         }
       }
     }
